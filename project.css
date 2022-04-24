@@ -1,0 +1,130 @@
+h1{
+    background-color:rgb(187, 21, 85);;
+    padding:50px 50px;
+    text-align: center;
+}
+.a{
+    display:flex;
+    flex-direction: row;
+    justify-content:flex-end ;
+    justify-content: space-between;
+    
+}
+.b{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration:rgb(187, 21, 85) underline;
+    
+
+}
+.c{
+    color:rgb(187, 21, 85);;
+    margin-left:25px;
+}
+.d{
+    margin-left:25px; 
+}
+.e{
+    margin-left:25px;
+}
+.f{
+    margin-left:25px;
+}
+.g{
+    border:3px solid rgb(187, 21, 85);
+    border-left: 50%;
+    border-right: 50%;
+    border-radius: 30px;
+    margin-left:25px;
+    padding-right: 17px;
+}
+.h{
+    display:flex;
+    flex-direction: row;
+}
+.k{
+    display:flex;
+    flex-direction: column!important;
+}
+.i{
+    font-size: 60px;
+}
+.j{
+    font-size:30px;
+}
+#m{
+    display:flex;
+    flex-direction: row;
+}
+#n{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+ 
+}
+#o{
+    font-size: 30px;
+    display:flex;
+    flex-direction: row;
+}
+#x{
+    font-size:35px;
+    border:3px solid rgb(187, 21, 85);;
+    border-left: 50%;
+    border-right: 50%;
+    border-radius: 30px;
+   background-color:rgb(187, 21, 85);;
+   color:white;
+   margin-left: 30px;
+}
+#w{
+    font-size: 40px;
+    text-decoration: rgb(187, 21, 85) underline;
+    margin-left: 70px;
+}
+#z{
+    font-size: 25px;
+}
+#p{
+    background-color: rgb(149, 189, 104);
+}
+.rao{
+    display: flex;
+    flex-direction: row;
+    justify-items: space between;
+}
+@media(max-width:1000px){
+  .a{
+      display:flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-end;
+  }
+  .b{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+  }
+  .h{
+      display:flex;
+      flex-direction:column;
+      justify-content: center;
+  }
+  #m{
+    display:flex;
+    flex-direction:column;
+    justify-content: center; 
+  }
+  #n{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+  }
+  #o{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+  }
+  .x{
+      justify-content: center;
+  }
+}
